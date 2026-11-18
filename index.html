@@ -2,66 +2,81 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Your Name | Portfolio</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>zeeshan abedin | Portfolio</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-  <!-- HERO -->
-  <header class="hero" id="home">
-    <p class="greeting">Hello, I'm</p>
-    <h1>Your Name</h1>
-    <p class="tagline">Aspiring Web Developer &amp; Computer Science Student</p>
-    <div class="buttons">
-      <a href="#projects" class="btn primary">View My Work</a>
-      <button id="themeBtn" class="btn secondary">Dark Mode</button>
-    </div>
+  <header>
+    <h2>zeeshan abedin</h2>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#education">Education</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+      <button id="themeBtn">Dark mode</button>
+    </nav>
   </header>
 
-  <!-- ABOUT -->
+  <section id="home">
+    <h1>Hi, I'm zeeshan abedin</h1>
+    <p>Computer Science Student | Aspiring ML Engineer</p>
+    <p>Semester 3 | URN: E25BO01519</p>
+  </section>
+
   <section id="about">
     <h2>About Me</h2>
     <p>
-      I am a student passionate about building clean and useful websites.
-      I am currently learning HTML, CSS, JavaScript and version control with
-      Git and GitHub. Replace this text with a few lines about your course,
-      college and interests.
+      I am a 2nd year B.Tech Computer Science student in Pune, India.
+      I want to become a cybersecurity analyst and I am
+      learning Python, AI ML and data science.
+    </p>
+  </section>
+  <section id="skills">
+    <h2>Skills</h2>
+    <ul>
+      <li>Python</li>
+      <li>AI </li>
+      <li>Machine Learning</li>
+      <li>Data Science</li>
+      <li>HTML, CSS, JavaScript</li>
+    </ul>
+  </section>
+
+  <section id="education">
+    <h2>Education</h2>
+    <p><b>B.Tech in Computer Science</b></p>
+    <p>Ajeenkya D Y Patil University (2025 - 2029)</p>
+    <p><b>Secreatary at sports Club</b></p>
+    <p>Alta School of Technology (Aug 2026 - Present)</p>
+  </section>
+
+  <section id="projects">
+    <h2>Projects</h2>
+    <div class="card">
+      <h3>Project 1</h3>
+      <p>Write about your project here.</p>
+    </div>
+    <div class="card">
+      <h3>Project 2</h3>
+      <p>Write about your project here.</p>
+    </div>
+  </section>
+
+
+  <section id="contact">
+    <h2>Contact</h2>
+    <p>Email: zeeshanabedin10@gmail.com</p>
+    <p>
+      <a href="https://www.linkedin.com/in/zeeshan-abedin-86928b381/" target="_blank">LinkedIn</a>
     </p>
   </section>
 
-  <!-- SKILLS -->
-  <section id="skills">
-    <h2>Skills</h2>
-    <div class="grid">
-      <div class="card"><h3>HTML</h3><p>Page structure and semantic markup</p></div>
-      <div class="card"><h3>CSS</h3><p>Layouts, colors and responsive design</p></div>
-      <div class="card"><h3>JavaScript</h3><p>Interactive features on web pages</p></div>
-      <div class="card"><h3>Git &amp; GitHub</h3><p>Version control and collaboration</p></div>
-    </div>
-  </section>
-
-  <!-- PROJECTS -->
-  <section id="projects">
-    <h2>Projects</h2>
-    <div class="grid">
-      <div class="card">
-        <h3>Portfolio Website</h3>
-        <p>A personal site built with HTML, CSS and JavaScript.</p>
-      </div>
-      <div class="card">
-        <h3>Git Practice Repository</h3>
-        <p>Practised commits, branching, merging and pushing to GitHub.</p>
-      </div>
-    </div>
-  </section>
-
-  <!-- CONTACT -->
-  <section id="contact">
-    <h2>Contact</h2>
-    <p>Email: <a href="mailto:yourname@example.com">yourname@example.com</a></p>
-    <p>GitHub: <a href="https://github.com/your-username">github.com/your-username</a></p>
-  </section>
+  <footer>
+    <p>&copy; <span id="year"></span> zeeshan abedin</p>
+  </footer>
 
   <script src="script.js"></script>
 </body>

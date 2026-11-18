@@ -2,8 +2,8 @@
 
 | Full Name | URN Number | Semester |
 |-----------|------------|----------|
-| Priyanuj Goswami | E25BO31513 | 3 |
+| zeeshan abedin | E25BO01519 | 3 |
 
 | Section | Subject |
 |---------|---------|
-| B | Git and Gitlab |
+| A | Git and Gitlab |
